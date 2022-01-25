@@ -1,0 +1,80 @@
+/* NAVBAR */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.navbar {
+    margin-top: 2rem;
+}
+
+.navbarContactBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ce3b1a;
+    height: 3rem;
+    font-weight: 500;
+    color: whitesmoke;
+    width: 100vw;
+}
+
+.navbarContact {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 1rem;
+}
+
+.brandPizza {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ce3b1a;
+    border-radius: 50px;
+    margin-right: 16px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.brandPizza img {
+    padding-top: 10px;
+    height: 42px;
+    width: 42px;
+}
+
+.pizzaName {
+    position: relative;
+    bottom: .5rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .brandPizza {
+        font-size: 12px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .brandPizza img{
+        height: 32px;
+        width: 32px;
+    }
+    
+}
+
+.main{
+    /* background: #131b27; */
+}
+
+
+/* FOOTER */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.footer {
+    position: fixed;
+    width: 100vw;
+    height: 6.5rem;
+    background-color: #ce3b1a;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+}
