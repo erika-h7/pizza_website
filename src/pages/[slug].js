@@ -49,7 +49,7 @@ export const getStaticPaths = async () => {
     const pizzas = [
 
         {
-            id: '1',
+            id: 1,
             name: 'Cheese Pizza',
             slug: 'cheese-pizza',
             description: 'A delicious cheese pizza made with our finest tomato sauce.',
